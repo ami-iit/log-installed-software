@@ -17,6 +17,11 @@ python ./log-installed-software/src/log.py
 
 After running, the script will create a `installed_software.txt` file that contains a report on the software installed in the system.
 
+If you want to invoke the script in one step and you have `curl` on your machine, and you are 100% sure that you trust the `ami-iit` GitHub organization, you can just run:
+~~~
+curl -fsSL https://raw.githubusercontent.com/ami-iit/log-installed-software/main/src/log.py | python
+~~~
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
